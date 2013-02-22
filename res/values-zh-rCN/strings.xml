@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">华文News</string>
+    <string name="updatetime">更新时间：</string>
+    <string name="loading">载入中</string>
+    <string name="error">该新闻网站无资料，或网路问题，请检查连线后重新载入</string>
+    <string name="browser">开启浏览器</string>
+    <string name="refresh">重新载入</string>
+    
+    <string name="tabTW">台湾</string>
+    <string name="tabHK">香港</string>
+    <string name="tabCN">中国</string>
+    <string name="tabSG">星馬</string>
+    <string name="tabBK">书签</string>
+    
+    <string name="exit_title">离开</string>
+    <string name="about_title">关于</string>
+    <string name="share_title">分享</string>
+	<string name="rating_title">评价</string>	    
+    <string name="previous_title">上一則</string>
+    <string name="next_title">下一則</string>
+    <string name="back_to_home">回到首頁</string>
+    <string name="back_to_previous_page">返回上頁</string>    
+    <string name="ok_label">确认</string>
+    <string name="about_subject">关于</string>
+	<string name="about_text">Copyright (c) 2012 oddsoft (ccjeng@gmail.com)
+	\n\n华文News
+	\n\n本软件提供各大华文网站新闻资讯服务，新闻图片与新闻文字内容，其著作权与版权皆属该新闻网站所有
+	\n\n
+\nThe open source library Jsoup is used for html parsing.
+\nThe jsoup code-base (include source and compiled packages) are distributed under the open source MIT license as described below.
+\n\nThe MIT License
+\nCopyright (c) 2009, 2010 Jonathan Hedley (jonathan@hedley.net)
+\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+	</string>
+	<string name="last_item">已经是最后一则新闻</string>
+	<string name="load_previous_news">载入上一则新闻</string>
+	<string name="load_next_news">载入下一则新闻</string>
+	
+	<string name="preference">设定</string>	
+	<string name="bookmark_add">加入书签</string>
+	<string name="bookmark_remove">移除书签</string>
+	<string name="preference_read">阅读模式設定</string>
+	<string name="preference_save">节费模式设定</string>
+	<string name="preference_others">其他</string>
+	<string name="pref_theme">背景设定</string>
+	<string name="pref_theme_summary">设定背景文字颜色 (须重新启动)</string>
+	<string-array name="pref_theme_item">
+		<item>白底黑字</item>	
+		<item>黑底白字</item>
+		<item>灰底黑字</item>
+	</string-array>
+	<string name="pref_orientation">屏幕自动翻转设定</string>
+	<string name="pref_orientation_summary">设定强制横式屏幕或直式屏幕</string>
+	<string-array name="pref_orientation_item">
+		<item>不強制</item>
+		<item>強制横式屏幕</item>
+		<item>強制直式屏幕</item>
+	</string-array>
+	<string name="pref_fontsize">字体大小设定</string>
+	<string name="pref_fontsize_summary">设定预设字体大小</string>
+	<string-array name="pref_fontsize_item">
+		<item>最大</item>
+		<item>较大</item>	
+		<item>普通</item>
+		<item>较小</item>	
+		<item>最小</item>
+	</string-array>
+	<string name="pref_defaulttab">自訂首页</string>
+	<string name="pref_defaulttab_summary">设定开启应用程式后进入的页面(须重新启动)</string>
+	<string-array name="pref_defaulttab_item">
+		<item>台湾</item>
+		<item>香港</item>	
+		<item>中国</item>
+		<item>星馬</item>
+ 		<item>书签</item>
+	</string-array>	
+	<string name="pref_fullscreen">开启全萤幕阅读</string>
+	<string name="pref_fullscreen_summary">设定全屏幕阅读模式 (须重新启动)</string>
+	<string name="pref_noimage">开启无图片模式</string>
+	<string name="pref_noimage_summary">強制不下载图片(适合低频宽网路) (须重新启动)</string>
+	<string name="pref_volumekey">音量键功能设定</string>
+	<string name="pref_volumekey_summary">设定阅读新闻时音量键的功能</string>
+	<string-array name="pref_volumekey_item">
+		<item>卷动屏幕</item>	
+		<item>切换上下则新闻</item>
+	</string-array>
+	<string name="pref_gesture">开启手势操作</string>
+	<string name="pref_gesture_summary">启用手势滑动浏览上下则新闻</string>
+	<string name="pref_smartsaving">开启智能节费模式</string>
+	<string name="pref_smartsaving_summary">根据连线类型(Wifi/3G)自动启动/关闭图片下载功能</string>
+	<string name="changelog_title">更新记录</string>
+	<string name="welcome_title">欢迎</string>
+    <string name="welcome_message">欢迎使用华文News，最好用的华文新闻阅读器
+    \n\n建议使用Wifi，以获得最佳浏览速度。
+    \n\n请按下方的设定按钮，自订您最佳的浏览状态。
+    \n\n首页新闻网站列表长按即可加入/移除书签。</string>
+    
+</resources>

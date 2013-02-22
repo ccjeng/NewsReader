@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="newsSourceSG">
+    	<item>联合早报网</item>
+    	<item>南洋视界</item>
+    	<item>星洲日報</item>
+    	<item>大马光华日报</item>
+    	<item>大马诗华资讯</item>
+    	<item>大马独立新闻在线</item>
+   </string-array>
+</resources>    

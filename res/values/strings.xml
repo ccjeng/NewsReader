@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">華文News</string>
+    <string name="updatetime">更新時間：</string>
+    <string name="loading">載入中</string>
+    <string name="error">該新聞網站無資料，或網路問題，請檢查連線後重新載入</string>
+    <string name="browser">開啟瀏覽器</string>
+    <string name="refresh">重新整理</string>
+    
+    <string name="tabTW">台灣</string>
+    <string name="tabHK">香港</string>
+    <string name="tabCN">中國</string>
+    <string name="tabSG">星馬</string>
+    <string name="tabBK">書籤</string>
+    
+    <string name="exit_title">離開</string>
+    <string name="about_title">關於</string>
+    <string name="share_title">分享</string>
+	<string name="rating_title">評價</string>	    
+    <string name="previous_title">上一則</string>
+    <string name="next_title">下一則</string>
+    <string name="back_to_home">回到首頁</string>
+    <string name="back_to_previous_page">返回上頁</string>
+    <string name="ok_label">確認</string>
+    <string name="about_subject">關於</string>
+	<string name="about_text">Copyright (c) 2012 oddsoft (ccjeng@gmail.com)
+	\n\n華文News
+	\n\n本軟件提供各大華文網站新聞資訊服務，新聞圖片與新聞文字內容，其著作權與版權皆屬該新聞網站所有
+	\n\n
+\nThe open source library Jsoup is used for html parsing.
+\nThe jsoup code-base (include source and compiled packages) are distributed under the open source MIT license as described below.
+\n\nThe MIT License
+\nCopyright (c) 2009, 2010 Jonathan Hedley (jonathan@hedley.net)
+\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+	</string>
+
+	<string name="last_item">已經是最後一則新聞</string>
+	<string name="load_previous_news">載入上一則新聞</string>
+	<string name="load_next_news">載入下一則新聞</string>
+	<string name="preference">設定</string>
+	<string name="bookmark_add">加入書籤</string>
+	<string name="bookmark_remove">移除書籤</string>
+	<string name="preference_read">閱讀模式設定</string>
+	<string name="preference_save">節費模式設定</string>
+	<string name="preference_others">其他</string>
+	<string name="pref_theme">背景設定</string>
+	<string name="pref_theme_summary">設定背景文字顏色 (須重新啟動)</string>
+	<string-array name="pref_theme_item">
+		<item>白底黑字</item>	
+		<item>黑底白字</item>
+		<item>灰底黑字</item>
+	</string-array>
+	<string-array name="pref_theme_code">
+		<item>WHITE</item>	
+		<item>BLACK</item>
+		<item>GRAY</item>
+	</string-array>
+	<string name="pref_orientation">螢幕自動翻轉設定</string>
+	<string name="pref_orientation_summary">設定強制橫式螢幕或直式螢幕</string>
+	<string-array name="pref_orientation_item">
+		<item>不強制</item>
+		<item>強制橫式螢幕</item>	
+		<item>強制直式螢幕</item>
+	</string-array>
+	<string-array name="pref_orientation_code">
+		<item>NO</item>
+		<item>LANDSCAPE</item>	
+		<item>PORTRAIT</item>
+	</string-array>
+	<string name="pref_fontsize">字體大小設定</string>
+	<string name="pref_fontsize_summary">設定預設字體大小</string>
+	<string-array name="pref_fontsize_item">
+		<item>最大</item>
+		<item>較大</item>	
+		<item>普通</item>
+		<item>較小</item>	
+		<item>最小</item>
+	</string-array>
+	<string-array name="pref_fontsize_code">
+		<item>LARGEST</item>
+		<item>LARGER</item>
+		<item>NORMAL</item>
+		<item>SMALLER</item>	
+		<item>SMALLEST</item>
+	</string-array>
+	<string name="pref_defaulttab">自訂首頁</string>
+	<string name="pref_defaulttab_summary">設定開啟應用程式後進入的頁面 (須重新啟動)</string>
+	<string-array name="pref_defaulttab_item">
+		<item>台灣</item>
+		<item>香港</item>	
+		<item>中國</item>
+		<item>星馬</item>
+	 	<item>書籤</item>
+	</string-array>
+	<string-array name="pref_defaulttab_code">
+		<item>TW</item>
+		<item>HK</item>	
+		<item>CN</item>
+		<item>SG</item>
+	 	<item>BK</item>
+	</string-array>	
+	<string name="pref_fullscreen">開啟全螢幕閱讀</string>
+	<string name="pref_fullscreen_summary">設定全螢幕閱讀模式 (須重新啟動)</string>
+	<string name="pref_noimage">開啟無圖片模式</string>
+	<string name="pref_noimage_summary">強制不下載圖片 (適合低頻寬網路) (須重新啟動)</string>
+	<string name="pref_volumekey">音量鍵功能設定</string>
+	<string name="pref_volumekey_summary">設定閱讀新聞時音量鍵的功能</string>
+	<string-array name="pref_volumekey_item">
+		<item>捲動螢幕</item>	
+		<item>切換上下則新聞</item>
+	</string-array>
+	<string-array name="pref_volumekey_code">
+		<item>SCROLL</item>	
+		<item>NEXTPREVIOUS</item>
+	</string-array>
+	<string name="pref_gesture">開啟手勢操作</string>
+	<string name="pref_gesture_summary">啟用手勢滑動瀏覽上下則新聞</string>
+	<string name="pref_smartsaving">開啟智能節費模式</string>
+	<string name="pref_smartsaving_summary">根據連線類型 (Wifi/3G)自動啟動/關閉圖片下載功能</string>
+	<string name="changelog_title">更新記錄</string>
+	<string name="welcome_title">歡迎</string>
+    <string name="welcome_message">歡迎使用華文News，最好用的華文新聞閱讀器\n\n建議使用Wifi，以獲得最佳瀏覽速度。
+    \n\n請按下方的設定按鈕，自訂您最佳的瀏覽狀態。
+    \n\n首頁新聞網站列表長按即可加入/移除書籤。
+    </string>
+    
+ <!-- for Vpon SDK 3.0 -->
+  <string name="app_picker_name">Applications</string>
+  <string name="msg_bulk_mode_scanned">Bulk mode: barcode scanned and saved</string>
+  <string name="msg_camera_framework_bug">Sorry, the Android camera encountered a problem. You may need to restart the device.</string>
+  <string name="msg_default_contents">Contents</string>
+  <string name="msg_default_format">Format</string>
+  <string name="msg_default_meta">Metadata</string>
+  <string name="msg_default_mms_subject">Place a barcode inside the viewfinder rectangle to scan it.</string>
+  <string name="msg_default_status">Place a barcode inside the viewfinder rectangle to scan it.</string>
+  <string name="msg_default_time">Time</string>
+  <string name="msg_default_type">Type</string>
+  <string name="msg_encode_barcode_failed">Could not generate the requested barcode.</string>
+  <string name="msg_encode_contents_failed">Could not encode a barcode from the data provided.</string>
+  <string name="msg_intent_failed">Sorry, the requested application could not be launched. The barcode contents may be invalid.</string>
+  <string name="msg_loading_apps">Loading list of applications\u2026</string>
+  <string name="msg_not_our_results">You are leaving this application. The search results you will see are not related to this application.</string>
+  <string name="msg_redirect">Redirect</string>
+  <string name="msg_sbc_book_not_searchable">Sorry, this book is not searchable.</string>
+  <string name="msg_sbc_failed">Sorry, the search encountered a problem.</string>
+  <string name="msg_sbc_no_page_returned">No page returned</string>
+  <string name="msg_sbc_page">Page</string>
+  <string name="msg_sbc_searching_book">Searching book\u2026</string>
+  <string name="msg_sbc_snippet_unavailable">Snippet not available</string>
+  <string name="msg_sbc_unknown_page">Unknown page</string>
+  <string name="msg_share_explanation">You can share data by displaying a barcode on your screen and scanning it with another phone.</string>
+  <string name="msg_share_subject_line">Here are the contents of a barcode I scanned</string>
+  <string name="msg_share_text">Or type some text and press Enter</string>
+  <string name="msg_unmount_usb">Sorry, the SD card is not accessible.</string>    
+</resources>

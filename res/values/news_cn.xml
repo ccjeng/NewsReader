@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="newsSourceCN">
+    	<item>南方周末</item>
+    	<item>新浪新闻中心</item>
+    	<item>新浪体育新闻</item>
+    	<item>新浪科技新闻</item>
+    	<item>新浪财经新闻</item>
+    	<item>新浪娱乐新闻</item>
+    	<item>凤凰网</item>
+    	<item>大洋网</item>
+    	<item>网易新闻</item>
+    	<item>网易娱乐新闻</item>
+    	<item>网易科技新闻</item>
+    	<item>网易财经新闻</item>
+   </string-array>
+</resources>    

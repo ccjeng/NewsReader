@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayoutView1"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+	<ViewFlipper android:id="@+id/view_flipper"
+	  	android:layout_width="fill_parent" 
+		android:layout_height="fill_parent">
+		<WebView android:id="@+id/news_view_body"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"/>
+	</ViewFlipper>		
+</LinearLayout>
+

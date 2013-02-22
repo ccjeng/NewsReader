@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="newscatsSGZaobao">
+    	<item>即时报道</item>
+    	<item>中国新闻</item>
+    	<item>国际新闻</item>
+    	<item>东南亚新闻</item>
+    	<item>新加坡新闻</item>
+    	<item>言论/社论/天下事新闻</item>
+    	<item>中国财经</item>
+    	<item>狮城财经</item>
+    	<item>全球财经</item>
+    	<item>早报体育</item>
+    	<item>早报副刊</item>
+    </string-array>
+    <string-array name="newsfeedsSGZaobao">
+		<item>http://zaobao.feedsportal.com/c/34003/f/616929/index.rss</item>
+		<item>http://zaobao.feedsportal.com/c/34003/f/616930/index.rss</item>
+		<item>http://zaobao.feedsportal.com/c/34003/f/616931/index.rss</item>
+		<item>http://zaobao.feedsportal.com/c/34003/f/616932/index.rss</item>
+		<item>http://zaobao.feedsportal.com/c/34003/f/616933/index.rss</item>
+		<item>http://zaobao.feedsportal.com/c/34003/f/616934/index.rss</item>
+		<item>http://zaobao.feedsportal.com/c/34003/f/616935/index.rss</item>
+		<item>http://zaobao.feedsportal.com/c/34003/f/616937/index.rss</item>
+		<item>http://zaobao.feedsportal.com/c/34003/f/616938/index.rss</item>
+		<item>http://zaobao.feedsportal.com/c/34003/f/616939/index.rss</item>
+		<item>http://zaobao.feedsportal.com/c/34003/f/616941/index.rss</item>
+  </string-array>
+  <string-array name="newscatsSGNanYang">
+    	<item>新闻</item>
+    	<item>吃喝玩乐·新加坡</item>
+    	<!-- <item>中港台新闻</item>
+    	<item>财经</item>
+    	<item>新加坡财经</item>
+    	<item>中华区财经</item>
+    	<item>科技</item>
+    	<item>生活</item> -->
+  </string-array>
+  <string-array name="newsfeedsSGNanYang">
+		<item>http://news.nanyangpost.com/feeds/posts/default?alt=rss</item> 
+		<item>http://sg.nanyangpost.com/feeds/posts/default?alt=rss</item>
+		<!--
+		<item>http://www.nanyangpost.com/news/china/index.1.rss</item>
+		<item>http://www.nanyangpost.com/money/index.1.rss</item>
+		<item>http://www.nanyangpost.com/money/singapore_business/index.1.rss</item>
+		<item>http://www.nanyangpost.com/money/china_business/index.1.rss</item>
+		<item>http://www.nanyangpost.com/tech/index.1.rss</item>
+		<item>http://www.nanyangpost.com/life/index.1.rss</item> -->
+  </string-array>
+  <string-array name="newscatsSGKW">
+    	<item>重点新闻</item>
+    	<item>国内新闻</item>
+    	<item>北马新闻</item>
+    	<item>中南马新闻</item>
+    	<item>吉玻霹新闻</item>
+    	<item>国际新闻</item>
+    	<item>体育新闻</item>
+    	<item>娱乐新闻</item>
+    	<item>经济新闻</item>
+    	<item>专题</item>
+    	<item>言论</item>
+    	<item>求医</item>
+  </string-array>
+  <string-array name="newsfeedsSGKW">
+		<item>http://www.kwongwah.com.my/rss/highlight.xml</item>
+		<item>http://www.kwongwah.com.my/rss/news/1.xml</item>
+		<item>http://www.kwongwah.com.my/rss/news/4.xml</item>
+		<item>http://www.kwongwah.com.my/rss/news/96.xml</item>
+		<item>http://www.kwongwah.com.my/rss/news/82.xml</item>
+		<item>http://www.kwongwah.com.my/rss/news/3.xml</item>
+		<item>http://www.kwongwah.com.my/rss/news/5.xml</item>
+		<item>http://www.kwongwah.com.my/rss/news/6.xml</item>
+		<item>http://www.kwongwah.com.my/rss/news/9.xml</item>
+		<item>http://www.kwongwah.com.my/rss/news/73.xml</item>
+		<item>http://www.kwongwah.com.my/rss/news/10.xml</item>
+		<item>http://www.kwongwah.com.my/rss/news/46.xml</item>
+  </string-array>
+  <string-array name="newscatsSGtherock">
+  		<item>诗华资讯</item>
+  </string-array>
+  <string-array name="newsfeedsSGtherock">
+        <item>http://www.seehua.com/rss.xml</item>
+  </string-array>
+  <string-array name="newscatsSGmerdekareview">
+  		<item>独立新闻在线</item>
+  </string-array>
+  <string-array name="newsfeedsSGmerdekareview">
+        <item>http://www.merdekareview.com/rss.php</item>
+  </string-array>
+  <string-array name="newscatsSGsinchew">
+  		<item>即時新聞</item>
+  		<item>國內新聞</item>
+  		<item>國際新聞</item>
+<!--    		<item>財經新聞</item>-->
+  		<item>娛樂新聞</item>
+<!--   		<item>科技新聞</item> -->
+  		<item>地方新聞-北馬</item>
+<!--   		<item>地方新聞-霹靂</item> -->
+  		<item>地方新聞-雪隆</item>
+  		<item>地方新聞-森美蘭</item>
+<!--   		<item>地方新聞-馬六甲</item> -->
+  		<item>地方新聞-柔佛</item>
+  		<item>地方新聞-東海岸</item>
+  		<item>副刊</item>		
+  </string-array>
+  <string-array name="newsfeedsSGsinchew">
+        <item>http://feedity.com/rss.aspx/sinchew-i-com/UFFVU1VU</item>
+        <item>http://feedity.com/rss.aspx/sinchew-com-my/UFFVU1ZW</item>
+        <item>http://feedity.com/rss.aspx/sinchew-com-my/UFFVU1VS</item>
+     <!--    <item>http://biz.sinchew-i.com/rss.xml</item> -->
+        <item>http://feedity.com/rss.aspx/sinchew-i-com/UFFVU1VQ</item>
+     <!--    <item>http://feed43.com/5664688857771430.xml</item> -->
+        <item>http://feedity.com/rss.aspx/sinchew-com-my/UFFVU1VX</item>
+     <!--   <item>http://www.feed43.com/8147056177685762.xml</item>-->
+        <item>http://feedity.com/rss.aspx/sinchew-com-my/UFFVU1Va</item>
+        <item>http://feedity.com/rss.aspx/sinchew-com-my/UFFVU1Vb</item>
+     <!--   <item>http://www.feed43.com/4741316002055612.xml</item>-->
+        <item>http://feedity.com/rss.aspx/sinchew-com-my/UFFVU1VV</item>
+        <item>http://feedity.com/rss.aspx/sinchew-com-my/UFFVU1VW</item>
+        <item>http://feedity.com/rss.aspx/sinchew-com-my/UFFVU1VR</item>
+  </string-array>       
+ </resources>       

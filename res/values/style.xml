@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="Theme" parent="android:Theme">
+  </style>
+
+  <style name="Theme.Black">
+    <item name="android:windowBackground">@color/black</item>
+    <item name="android:colorForeground">@color/white</item>
+    <item name="android:colorBackground">@color/black</item>
+    <item name="android:background">@color/black</item>
+    <item name="android:divider">@color/white</item>    
+  </style>
+  
+  <style name="Theme.White">
+    <item name="android:windowBackground">@color/white</item>
+    <item name="android:colorForeground">@color/black</item>
+    <item name="android:colorBackground">@color/white</item>
+    <item name="android:background">@color/white</item>
+    <item name="android:divider">@color/black</item>      
+  </style>
+
+</resources>

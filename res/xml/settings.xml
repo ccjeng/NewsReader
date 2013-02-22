@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/preference_read">
+	 	<ListPreference
+            android:title="@string/pref_theme"
+            android:summary="@string/pref_theme_summary"
+            android:key="theme"
+            android:defaultValue="WHITE"
+            android:entries="@array/pref_theme_item"
+            android:entryValues="@array/pref_theme_code" />
+	 	<ListPreference
+            android:title="@string/pref_orientation"
+            android:summary="@string/pref_orientation_summary"
+            android:key="orientation"
+            android:defaultValue="NO"
+            android:entries="@array/pref_orientation_item"
+            android:entryValues="@array/pref_orientation_code" />
+        <ListPreference
+            android:title="@string/pref_volumekey"
+            android:summary="@string/pref_volumekey_summary"
+            android:key="volumekey"
+            android:defaultValue="SCROLL"
+            android:entries="@array/pref_volumekey_item"
+            android:entryValues="@array/pref_volumekey_code" />
+        <ListPreference
+            android:title="@string/pref_fontsize"
+            android:summary="@string/pref_fontsize_summary"
+            android:key="fontsize"
+            android:defaultValue="NORMAL"
+            android:entries="@array/pref_fontsize_item"
+            android:entryValues="@array/pref_fontsize_code" />
+        <ListPreference
+            android:title="@string/pref_defaulttab"
+            android:summary="@string/pref_defaulttab_summary"
+            android:key="defaulttab"
+            android:defaultValue="TW"
+            android:entries="@array/pref_defaulttab_item"
+            android:entryValues="@array/pref_defaulttab_code" />      
+        <CheckBoxPreference
+	 		android:key="fullscreen"
+	 		android:title="@string/pref_fullscreen"
+            android:summary="@string/pref_fullscreen_summary"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+	 		android:key="gesture"
+	 		android:title="@string/pref_gesture"
+            android:summary="@string/pref_gesture_summary"
+            android:defaultValue="true" />
+	</PreferenceCategory> 	
+	<PreferenceCategory android:title="@string/preference_save">
+        <CheckBoxPreference
+	 		android:key="noimage"
+	 		android:title="@string/pref_noimage"
+            android:summary="@string/pref_noimage_summary"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+	 		android:key="smartsaving"
+	 		android:title="@string/pref_smartsaving"
+            android:summary="@string/pref_smartsaving_summary"
+            android:defaultValue="false" />
+		</PreferenceCategory> 		
+	<PreferenceCategory android:title="@string/preference_others">
+		<Preference
+	            android:title="@string/about_title"
+	            android:summary=""
+	            android:key="about" />       
+        <Preference 
+                android:title="@string/rating_title"
+	            android:summary=""
+	            android:key="rating" />
+    </PreferenceCategory>        
+</PreferenceScreen>
