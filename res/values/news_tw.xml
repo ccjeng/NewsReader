@@ -2,7 +2,6 @@
 <resources>
     <string-array name="newsSourceTW">
     	<item>Yahoo奇摩新聞</item>
-    	<item>蘋果日報</item>
     	<item>聯合新聞網</item>
     	<item>蕃薯藤新聞</item>
     	<item>中時電子報</item>
@@ -14,5 +13,6 @@
     	<item>鉅亨網</item>
      	<item>新頭殼NewTalk</item>
      	<item>自由時報</item>
-    </string-array>
+    <!--	<item>蘋果日報</item>-->     	
+   	</string-array>
 </resources>    

@@ -79,38 +79,38 @@ public class NewsList extends Activity implements OnClickListener, AdWhirlInterf
 	    		feedURL = getResources().getStringArray(R.array.newsfeedsYahoo);
 	        	break;
 	    	case 1:
-	    		feedURL = getResources().getStringArray(R.array.newsfeedsAppDaily);
-	        	break; 	
-	    	case 2:
 	    		feedURL = getResources().getStringArray(R.array.newsfeedsUDN);
 	        	break;
-	    	case 3:
+	    	case 2:
 	    		feedURL = getResources().getStringArray(R.array.newsfeedsPCHome);
 	        	break;
-	    	case 4:
+	    	case 3:
 	    		feedURL = getResources().getStringArray(R.array.newsfeedsChinaTimes);
 	        	break;
-	    	case 5:
+	    	case 4:
 	    		feedURL = getResources().getStringArray(R.array.newsfeedsNOW);
 	        	break;
-	    	case 6:
+	    	case 5:
 	    		feedURL = getResources().getStringArray(R.array.newsfeedsEngadget);
 	        	break;
-	    	case 7:
+	    	case 6:
 	    		feedURL = getResources().getStringArray(R.array.newsfeedsBNext);	
 	        	break;
-	    	case 8:
+	    	case 7:
 	    		feedURL = getResources().getStringArray(R.array.newsfeedsEttoday);	
 	        	break;
-	    	case 9:
+	    	case 8:
 	    		feedURL = getResources().getStringArray(R.array.newsfeedsCNYes);	
 	        	break;
-	    	case 10:
+	    	case 9:
 	    		feedURL = getResources().getStringArray(R.array.newsfeedsNewsTalk);	
 	        	break;	
-	    	case 11:
+	    	case 10:
 	    		feedURL = getResources().getStringArray(R.array.newsfeedsLibertyTimes);	
-	        	break;	
+	        	break;
+   	    /*	case 11:
+	    		feedURL = getResources().getStringArray(R.array.newsfeedsAppDaily);
+	        	break; */		        	
 	        }
         } else if (TabName.equals("tabHK")) {
         	switch (sourceNumber) {

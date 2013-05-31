@@ -71,38 +71,38 @@ public class NewsCategory extends Activity implements AdWhirlInterface {
 		        	category = getResources().getStringArray(R.array.newscatsYahoo);
 		        	break;
 	        	case 1:
-		        	category = getResources().getStringArray(R.array.newscatsAppDaily);
-		        	break; 
-	        	case 2:
 		        	category = getResources().getStringArray(R.array.newscatsUDN);
 		        	break;
-	        	case 3:
+	        	case 2:
 		        	category = getResources().getStringArray(R.array.newscatsPCHome);
 		        	break;
-	        	case 4:
+	        	case 3:
 		        	category = getResources().getStringArray(R.array.newscatsChinaTimes);
 		        	break;
-	        	case 5:
+	        	case 4:
 		        	category = getResources().getStringArray(R.array.newscatsNOW);
 		        	break;
-	        	case 6:
+	        	case 5:
 		        	category = getResources().getStringArray(R.array.newscatsEngadget);
 		        	break;
-	        	case 7:
+	        	case 6:
 		        	category = getResources().getStringArray(R.array.newscatsBNext);
 		        	break;
-	        	case 8:
+	        	case 7:
 		        	category = getResources().getStringArray(R.array.newscatsEttoday);
 		        	break;
-	        	case 9:
+	        	case 8:
 		        	category = getResources().getStringArray(R.array.newscatsCNYes);
 		        	break;
-	        	case 10:
+	        	case 9:
 		        	category = getResources().getStringArray(R.array.newscatsNewsTalk);
 		        	break;
-	        	case 11:
+	        	case 10:
 		        	category = getResources().getStringArray(R.array.newscatsLibertyTimes);
-		        	break;	
+		        	break;
+        	/*case 11:
+		        	category = getResources().getStringArray(R.array.newscatsAppDaily);
+		        	break;*/		        	
 	        }
         } else if (TabName.equals("tabHK")) {
         	switch (sourceNumber) {

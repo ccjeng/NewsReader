@@ -5,7 +5,7 @@ import android.provider.BaseColumns;
 public final class DbSchema {
 	
 	public static final String DATABASE_NAME = "news.db";
-	public static final int DATABASE_VERSION = 1;
+	public static final int DATABASE_VERSION = 2;
 	public static final String SORT_ASC = " ASC";
 	public static final String SORT_DESC = " DESC";
 	public static final String[] ORDERS = {SORT_ASC,SORT_DESC};

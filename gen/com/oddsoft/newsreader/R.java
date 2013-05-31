@@ -18,6 +18,8 @@ public final class R {
         public static final int newsSourceCN=0x7f080000;
         public static final int newsSourceHK=0x7f080001;
         public static final int newsSourceSG=0x7f080002;
+        /** 	<item>蘋果日報</item>
+         */
         public static final int newsSourceTW=0x7f080003;
         public static final int newscatsAppDaily=0x7f080044;
         public static final int newscatsBNext=0x7f080050;

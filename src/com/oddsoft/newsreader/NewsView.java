@@ -152,38 +152,39 @@ public class NewsView extends Activity implements OnGestureListener  {
 	    		getNewsBody = new NewsBodyYahoo();
 	        	break;
 	    	case 1:
-	    		getNewsBody = new NewsBodyAppDaily();
-	        	break;
-	    	case 2:
 	    		getNewsBody = new NewsBodyUDN();
 	        	break;
-	    	case 3:
+	    	case 2:
 	    		getNewsBody = new NewsBodyPCHome();
 	        	break;
-	    	case 4:
+	    	case 3:
 	    		getNewsBody = new NewsBodyChinaTimes();
 	        	break;
-	    	case 5:
+	    	case 4:
 	    		getNewsBody = new NewsBodyNOW();
 	        	break;
-	    	case 6:
+	    	case 5:
 	    		getNewsBody = new NewsBodyEngadget();
 	        	break;
-	    	case 7:
+	    	case 6:
 	    		getNewsBody = new NewsBodyBNext();
 	        	break;
-	    	case 8:
+	    	case 7:
 	    		getNewsBody = new NewsBodyETToday();
 	        	break;
-	    	case 9:
+	    	case 8:
 	    		getNewsBody = new NewsBodyCNYes();
 	        	break;
-	    	case 10:
+	    	case 9:
 	    		getNewsBody = new NewsBodyNewsTalk();
 	        	break;
-	    	case 11:
+	    	case 10:
 	    		getNewsBody = new NewsBodyLibertyTimes();
 	        	break;	
+		    /*case 11:
+	    		getNewsBody = new NewsBodyAppDaily();
+	        	break;
+	        	*/
 	        }
 		} else if (TabName.equals("tabHK")) {
 			switch (sourceNumber) {

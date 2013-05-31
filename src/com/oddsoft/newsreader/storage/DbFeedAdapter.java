@@ -34,7 +34,7 @@ public class DbFeedAdapter {
 
         @Override
         public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        	db.execSQL("DROP IF TABLE EXISTS "+ DbSchema.BookmarkSchema.TABLE_NAME);
+        	db.execSQL("DROP TABLE IF EXISTS "+ DbSchema.BookmarkSchema.TABLE_NAME);
 			onCreate(db);
         }        
     }
