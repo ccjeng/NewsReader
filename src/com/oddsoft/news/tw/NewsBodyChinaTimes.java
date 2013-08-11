@@ -18,10 +18,16 @@ public class NewsBodyChinaTimes implements INewsBody {
 		StringBuilder sb = new StringBuilder();
 		
 		try {
-			if (link.contains("money/"))
-				isr = new InputStreamReader(con.getInputStreamFromUrl(link),"UTF-8");
-			else
+			
+			//isr = new InputStreamReader(con.getInputStreamFromUrl(link),"UTF-8");
+			
+			if (link.contains("news.chinatimes.com/") || 
+					link.contains("life.chinatimes.com/") ||
+							link.contains("showbiz.chinatimes.com/"))
 				isr = new InputStreamReader(con.getInputStreamFromUrl(link.replace("#comment", "")),"BIG-5");
+				
+			else
+				isr = new InputStreamReader(con.getInputStreamFromUrl(link),"UTF-8");
 				
 			BufferedReader br = new BufferedReader(isr);
 			boolean beginFind = false;
@@ -40,9 +46,11 @@ public class NewsBodyChinaTimes implements INewsBody {
 				}
 			} else {
 				while (null != (s = br.readLine())) { 
-					if (s.trim().contains("<div class=\"bar-align-left\">")) {
+					if (s.trim().contains("<div class=\"article_info clear-fix\">") ||
+							s.trim().contains("<ul class=\"inline-list\">")) {
 						beginFind = true;
-					} else if (s.trim().contains("<!--content end-->")) {
+					} else if (s.trim().contains("</article>") ||
+							s.trim().contains("<!--content end-->")) {
 						break;
 					}
 					if (beginFind) {
@@ -67,8 +75,8 @@ public class NewsBodyChinaTimes implements INewsBody {
 		String rs = new String(html);
 		rs = rs.replace("<ul class=\"inline-list\">", "");
 		rs = rs.replace("</ul>", "");
-		rs = rs.replace("<li class=\"ui\">", "");
-		rs = rs.replace("<li class=\"ui last\">", "");
+		rs = rs.replace("<div class=\"article_star clear-fix\">", "<!--");
+		rs = rs.replace("<article class=\"clear-fix\">", "-->");
 		rs = rs.replace("</li>", "");
 		rs = rs.replace("class=", "xxx");
 		rs = rs.replace("<td", "<xxx");

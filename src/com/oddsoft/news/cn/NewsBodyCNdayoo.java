@@ -21,9 +21,9 @@ public class NewsBodyCNdayoo implements INewsBody {
 			String s;
 			
 			while (null != (s = br.readLine())) {
-				if (s.trim().contains("<!--NewsDate-->")) {
+				if (s.trim().contains("<!--NewsContent-->")) {
 					beginFind = true;
-				} else if (s.trim().contains("<!--/NewsContent-->")) {
+				} else if (s.trim().contains("<!--/enpcontent-->")) {
 					break;
 				}
 				if (beginFind) {
@@ -46,7 +46,7 @@ public class NewsBodyCNdayoo implements INewsBody {
 		String rs = new String(html);	
 		rs = rs.replace("a href", "ahref");
 		rs = rs.replace("http://www.dayoo.com/", ""); 
-		rs = rs.replace("网友评论&#160;(<em id=\"CommentCount_Item\" name=\"CommentCount_Item\">0</em>)", ""); 
+		rs = rs.replace("蝵�霂捏&#160;(<em id=\"CommentCount_Item\" name=\"CommentCount_Item\">0</em>)", ""); 
 		rs = rs.replace("<table", "<xx");	
 		rs = rs.replace("<td", "<xx");
 		rs = rs.replace("<tr", "<xx");

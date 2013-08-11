@@ -26,7 +26,7 @@ public class NewsBodyCNinfzm implements INewsBody {
 				}
 				if (s.trim().contains("<!--文章内容-->")) {
 					beginFind = true;
-				} else if (s.trim().contains("<!-- article end-->")) {
+				} else if (s.trim().contains("下一页")) {
 					break;
 				}
 				if (beginFind) {

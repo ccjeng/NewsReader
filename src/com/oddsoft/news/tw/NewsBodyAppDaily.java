@@ -78,7 +78,7 @@ public class NewsBodyAppDaily implements INewsBody {
 		rs = rs.replace("</iframe>", "-->");
 
 		
-		//rs = rs.replace("※關心體育盛事", "<!--");
+		//rs = rs.replace("有話要說 投稿「即時論壇」", "<!--");
 		rs = rs.replace("<section id=\"articlelast\">", "<!--");
 		rs = rs.replace("googletag.display('articlelast');", "");
 		//rs = rs.replace("<img src=\"http://www.appledaily.com.tw/olympic2012", "<!--");

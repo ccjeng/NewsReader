@@ -108,9 +108,9 @@ public class NewsList extends Activity implements OnClickListener, AdWhirlInterf
 	    	case 10:
 	    		feedURL = getResources().getStringArray(R.array.newsfeedsLibertyTimes);	
 	        	break;
-   	    /*	case 11:
+   	    	case 11:
 	    		feedURL = getResources().getStringArray(R.array.newsfeedsAppDaily);
-	        	break; */		        	
+	        	break; 		        	
 	        }
         } else if (TabName.equals("tabHK")) {
         	switch (sourceNumber) {

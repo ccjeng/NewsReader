@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="updates">
-    	<item>v1.5.0.6\n
-    	    -因台灣蘋果日報通知，移除台灣蘋果日報\n
-    	    -本次升級會移除全部書籤，請自行重新加入
+    	<item>v1.5.0.7\n
+    	    -修正中時電子報
     	</item>
 	</string-array>
 </resources>

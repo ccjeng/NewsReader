@@ -100,9 +100,9 @@ public class NewsCategory extends Activity implements AdWhirlInterface {
 	        	case 10:
 		        	category = getResources().getStringArray(R.array.newscatsLibertyTimes);
 		        	break;
-        	/*case 11:
+        	    case 11:
 		        	category = getResources().getStringArray(R.array.newscatsAppDaily);
-		        	break;*/		        	
+		        	break;		        	
 	        }
         } else if (TabName.equals("tabHK")) {
         	switch (sourceNumber) {

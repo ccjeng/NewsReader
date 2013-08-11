@@ -181,10 +181,10 @@ public class NewsView extends Activity implements OnGestureListener  {
 	    	case 10:
 	    		getNewsBody = new NewsBodyLibertyTimes();
 	        	break;	
-		    /*case 11:
+		    case 11:
 	    		getNewsBody = new NewsBodyAppDaily();
 	        	break;
-	        	*/
+	        	
 	        }
 		} else if (TabName.equals("tabHK")) {
 			switch (sourceNumber) {
