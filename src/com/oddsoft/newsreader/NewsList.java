@@ -1,7 +1,5 @@
 package com.oddsoft.newsreader;
 
-import com.adwhirl.AdWhirlLayout;
-import com.adwhirl.AdWhirlLayout.AdWhirlInterface;
 import com.oddsoft.newsreader.hkapple.Category;
 import com.oddsoft.newsreader.hkapple.Feeds;
 import com.oddsoft.newsreader.rss.Feed;
@@ -29,19 +27,16 @@ import android.util.Log;
 import android.widget.AdapterView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.view.ContextMenu;
 import android.view.ContextMenu.ContextMenuInfo;
-import android.view.Gravity;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
 import android.view.View.OnClickListener;
-import android.view.ViewGroup.LayoutParams;
 
-public class NewsList extends Activity implements OnClickListener, AdWhirlInterface {
+public class NewsList extends Activity implements OnClickListener {
 	public final String TAG = "NewsList";
 	private static final int GONE = 8;
 	private RSSFeed feed = null;
@@ -53,15 +48,16 @@ public class NewsList extends Activity implements OnClickListener, AdWhirlInterf
 	private ProgressDialog dialog = null;
 	//static final int PROGRESS_DIALOG = 0;
 	private String RSSFEEDOFCHOICE = null;
-
+	
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.news_list_layout);
-        
+		
         //for long press
         LinearLayout linearLayout = (LinearLayout) findViewById(R.id.LinearLayoutList1);
         this.registerForContextMenu(linearLayout);
+
         
         //get intent values
 		Bundle bunde = this.getIntent().getExtras();
@@ -417,7 +413,7 @@ public class NewsList extends Activity implements OnClickListener, AdWhirlInterf
 
 	private void adWhirl() {
 		//AdWhirlLayout adWhirlLayout = new AdWhirlLayout(this, "bcd6d779dfd5495aaf159406de9e3181");
-		AdWhirlLayout adWhirlLayout = new AdWhirlLayout(this, "42b9769f81ec41ec814ddd8323ba3358");
+	/*	AdWhirlLayout adWhirlLayout = new AdWhirlLayout(this, "42b9769f81ec41ec814ddd8323ba3358");
 	    
     	LinearLayout linearLayout = (LinearLayout) findViewById(R.id.LinearLayoutList1);
     	RelativeLayout.LayoutParams layoutParams = new
@@ -438,14 +434,8 @@ public class NewsList extends Activity implements OnClickListener, AdWhirlInterf
     	adWhirlLayout.setAdWhirlInterface(new MobfoxCustomEvents(adWhirlLayout, this, getApplicationContext()));
     	linearLayout.invalidate();
     	
+*/
 
-
-	}
-
-	@Override
-	public void adWhirlGeneric() {
-		// TODO Auto-generated method stub
-		
 	}
 
 }

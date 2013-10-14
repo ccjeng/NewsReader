@@ -251,9 +251,9 @@ containing a value of this type.
     }
     public static final class id {
         public static final int LinearLayoutCat1=0x7f07001c;
-        public static final int LinearLayoutList1=0x7f07001f;
-        public static final int LinearLayoutView1=0x7f070022;
-        public static final int add_fav=0x7f070025;
+        public static final int LinearLayoutList1=0x7f070020;
+        public static final int LinearLayoutView1=0x7f070023;
+        public static final int add_fav=0x7f070026;
         /**  Messages IDs 
          */
         public static final int auto_focus=0x7f070000;
@@ -266,19 +266,20 @@ containing a value of this type.
         public static final int decode=0x7f070001;
         public static final int decode_failed=0x7f070002;
         public static final int decode_succeeded=0x7f070003;
-        public static final int feedpubdate=0x7f070021;
-        public static final int feedtitle=0x7f070020;
+        public static final int feedpubdate=0x7f070022;
+        public static final int feedtitle=0x7f070021;
         public static final int format_text_view=0x7f07000c;
         public static final int format_text_view_label=0x7f07000b;
         public static final int icon=0x7f070017;
         public static final int itemlist=0x7f070019;
         public static final int meta_text_view=0x7f070012;
         public static final int meta_text_view_label=0x7f070011;
-        public static final int news_view_body=0x7f070024;
+        public static final int mobFoxView=0x7f07001f;
+        public static final int news_view_body=0x7f070025;
         public static final int newsrow=0x7f07001b;
         public static final int preview_view=0x7f070007;
         public static final int quit=0x7f070004;
-        public static final int remove_fav=0x7f070026;
+        public static final int remove_fav=0x7f070027;
         public static final int restart_preview=0x7f070005;
         public static final int result_button_view=0x7f070015;
         public static final int result_view=0x7f070009;
@@ -289,7 +290,7 @@ containing a value of this type.
         public static final int time_text_view_label=0x7f07000f;
         public static final int type_text_view=0x7f07000e;
         public static final int type_text_view_label=0x7f07000d;
-        public static final int view_flipper=0x7f070023;
+        public static final int view_flipper=0x7f070024;
         public static final int viewfinder_view=0x7f070008;
     }
     public static final class layout {

@@ -22,4 +22,14 @@
 		android:stackFromBottom="true"
 		android:drawSelectorOnTop="true"
 		/>	
+	<com.adsdk.sdk.banner.AdView
+        android:id="@+id/mobFoxView"
+		android:layout_width="300dp"
+		android:background="#000000"
+		android:layout_height="50dp"
+		request_url="http://my.mobfox.com/request.php"
+		publisherId="81b459201f3c03e7ed01e87996fdeef8"
+		location="true"
+		animation="true"
+		/>			
 </LinearLayout>

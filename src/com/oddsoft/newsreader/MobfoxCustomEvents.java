@@ -4,14 +4,15 @@ import android.content.Context;
 import android.util.Log;
 import android.view.View;
 
+/*
 import com.adwhirl.AdWhirlLayout;
 import com.adwhirl.AdWhirlLayout.AdWhirlInterface;
 import com.mobfox.sdk.MobFoxView;
 import com.mobfox.sdk.Mode;
 import com.mobfox.sdk.RequestException;
-
-public class MobfoxCustomEvents implements AdWhirlInterface {
-
+*/
+public class MobfoxCustomEvents /* implements AdWhirlInterface*/ {
+/*
 		private AdWhirlLayout mAdWhirlLayout;
 		private Activity mActivity;
 		private Context mContext;
@@ -85,6 +86,7 @@ public class MobfoxCustomEvents implements AdWhirlInterface {
 			
 		}
 
+*/
 
 	}
 

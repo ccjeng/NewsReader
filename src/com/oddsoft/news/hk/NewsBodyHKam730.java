@@ -21,16 +21,34 @@ public class NewsBodyHKam730 implements INewsBody {
 			boolean beginFind = false;
 			String s;
 			
+			//image
+			/*
 			while (null != (s = br.readLine())) { 
-				if (s.trim().contains("id=\"articleHeader\">")) {
+				if (s.trim().contains("<div id=\"article_img\">")) {
 					beginFind = true;
-				} else if (s.trim().contains("<p class=\"t3\">&nbsp;</p>")) {
+				} else if (s.trim().contains("</li>")) {
 					break;
 				}
+								
 				if (beginFind) {
 					sb.append(s.trim());
+				}					
+			}*/
+			
+			//content
+			beginFind = false;
+			while (null != (s = br.readLine())) { 
+				if (s.trim().contains("<div class=\"wordsnap\">")) {
+					beginFind = true;
+				} else if (s.trim().contains("article_print")) {
+					break;
 				}
+								
+				if (beginFind) {
+					sb.append(s.trim());
+				}					
 			}
+			
 			br.close();
 		} catch (Exception e) {
             e.printStackTrace();
@@ -47,11 +65,11 @@ public class NewsBodyHKam730 implements INewsBody {
 
 		String rs = new String(html);
 		rs = rs.replace(" ", ""); 
-		rs = rs.replace("<ahref=\"http://www.am730.com.hk/uploads/", "<img src=\"http://www.am730.com.hk/uploads/");	
+		//rs = rs.replace("<img src=\"uploads", "<img src=\"http://www.am730.com.hk/uploads/");	
 		rs = rs.replace("<li>", ""); 
 		rs = rs.replace("</li>", ""); 
 		rs = rs.replace("<imgwidth=", "<img width="); 
-		rs = rs.replace("src=\"/uploads/", "src=\"http://www.am730.com.hk/uploads/"); 
+		rs = rs.replace("src=\"/uploads/", " src=\"http://www.am730.com.hk/uploads/"); 
 		rs = rs.replace("<table", "<xx");	
 		rs = rs.replace("<td", "<xx");
 		rs = rs.replace("<tr", "<xx");

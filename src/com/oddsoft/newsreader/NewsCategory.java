@@ -3,8 +3,6 @@ package com.oddsoft.newsreader;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.adwhirl.AdWhirlLayout;
-import com.adwhirl.AdWhirlLayout.AdWhirlInterface;
 import com.flurry.android.FlurryAgent;
 //import com.oddsoft.newsreader.hkapple.Category;
 
@@ -18,20 +16,17 @@ import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.ContextMenu;
 import android.view.ContextMenu.ContextMenuInfo;
-import android.view.Gravity;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
-import android.view.ViewGroup.LayoutParams;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
 import android.widget.ListView;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.AdapterView.OnItemClickListener;
 
-public class NewsCategory extends Activity implements AdWhirlInterface {
+public class NewsCategory extends Activity  {
 	private static final String TAG = "NewsCategory";
 	private ListView listView;
 	private TextView titleTextView;
@@ -39,6 +34,7 @@ public class NewsCategory extends Activity implements AdWhirlInterface {
 	private ProgressDialog dialog = null;
 	private int sourceNumber;
 	private String TabName;
+	private LinearLayout linearLayout;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -46,9 +42,9 @@ public class NewsCategory extends Activity implements AdWhirlInterface {
         FlurryAgent.onStartSession(this, "NSWBR7L6P6IC5HY3SNSF");
         setContentView(R.layout.news_category_layout);
         listView = (ListView) findViewById(R.id.categorylist);
-       
+        
         //for long press
-        LinearLayout linearLayout = (LinearLayout) findViewById(R.id.LinearLayoutCat1);
+        linearLayout = (LinearLayout) findViewById(R.id.LinearLayoutCat1);
         this.registerForContextMenu(linearLayout);
         
         getPrefs();
@@ -315,7 +311,7 @@ public class NewsCategory extends Activity implements AdWhirlInterface {
     
 	private void adWhirl() {
 		//AdWhirlLayout adWhirlLayout = new AdWhirlLayout(this, "bcd6d779dfd5495aaf159406de9e3181");
-		AdWhirlLayout adWhirlLayout = new AdWhirlLayout(this, "42b9769f81ec41ec814ddd8323ba3358");
+	/*	AdWhirlLayout adWhirlLayout = new AdWhirlLayout(this, "42b9769f81ec41ec814ddd8323ba3358");
     
 		LinearLayout linearLayout = (LinearLayout) findViewById(R.id.LinearLayoutCat1);
     	RelativeLayout.LayoutParams layoutParams = new
@@ -336,14 +332,10 @@ public class NewsCategory extends Activity implements AdWhirlInterface {
     	linearLayout.addView(adWhirlLayout, layoutParams);
     	adWhirlLayout.setAdWhirlInterface(new MobfoxCustomEvents(adWhirlLayout, this, getApplicationContext()));
     	linearLayout.invalidate();	
-    	
+*/    	
 	}
 
-	@Override
-	public void adWhirlGeneric() {
-		// TODO Auto-generated method stub
-		
-	}
+
 
 
 }
