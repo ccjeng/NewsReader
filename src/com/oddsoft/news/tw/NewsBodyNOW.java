@@ -21,7 +21,7 @@ public class NewsBodyNOW implements INewsBody {
 			//link = link.substring(0, 34).toString() + "pda-91" 
 			//     + link.substring(link.length()-12, link.length());
 			
-			InputStreamReader isr = new InputStreamReader(con.getInputStreamFromUrl(link),"BIG-5");
+			InputStreamReader isr = new InputStreamReader(con.getInputStreamFromUrl(link),"UTF-8");
 			BufferedReader br = new BufferedReader(isr);
 			boolean beginFind = false;
 			String s;
