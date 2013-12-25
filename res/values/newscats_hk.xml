@@ -150,27 +150,26 @@
     	<item>飲食</item>
     	<item>旅遊</item>
     	<item>科技</item>
-    	<item>消費</item>
+    	<item>家庭</item>
     	<item>文化</item>
-    	<item>汽車</item>
+    	<item>運程</item>
     	<item>名采</item>
 <!-- >    	<item>暖流服務</item>
     	<item>豪情</item>-->
    </string-array>
    <string-array name="newsfeedsHKAppleDaily">   
-   	<item>http://news.hotpot.hk/~hkmagz6/index.php?s=&amp;i=&amp;a=&amp;c=要聞港聞</item>
-	<item>http://news.hotpot.hk/~hkmagz6/index.php?s=&amp;i=&amp;a=&amp;c=財經地產</item>
-	<item>http://news.hotpot.hk/~hkmagz6/index.php?s=&amp;i=&amp;a=&amp;c=兩岸國際</item>
-	<item>http://news.hotpot.hk/~hkmagz6/index.php?s=&amp;i=&amp;a=&amp;c=娛樂名人</item>
-	<item>http://news.hotpot.hk/~hkmagz6/index.php?s=&amp;i=&amp;a=&amp;c=體育</item>
-	<item>http://news.hotpot.hk/~hkmagz6/index.php?s=&amp;i=&amp;a=&amp;c=旅遊</item>
-	<item>http://news.hotpot.hk/~hkmagz6/index.php?s=&amp;i=&amp;a=&amp;c=科技</item>
-	<item>http://news.hotpot.hk/~hkmagz6/index.php?s=&amp;i=&amp;a=&amp;c=消費</item>
-	<item>http://news.hotpot.hk/~hkmagz6/index.php?s=&amp;i=&amp;a=&amp;c=文化</item>
-	<item>http://news.hotpot.hk/~hkmagz6/index.php?s=&amp;i=&amp;a=&amp;c=汽車</item>
-	<item>http://news.hotpot.hk/~hkmagz6/index.php?s=&amp;i=&amp;a=&amp;c=名采</item>    
-
-       
+	   	<item>http://hkmagze.serveblog.net/index.php?c=要聞港聞</item>
+		<item>http://hkmagze.serveblog.net/index.php?c=財經地產</item>
+		<item>http://hkmagze.serveblog.net/index.php?c=兩岸國際</item>
+		<item>http://hkmagze.serveblog.net/index.php?c=娛樂名人</item>
+		<item>http://hkmagze.serveblog.net/index.php?c=體育</item>
+		<item>http://hkmagze.serveblog.net/index.php?c=飲食</item>
+		<item>http://hkmagze.serveblog.net/index.php?c=旅遊</item>
+		<item>http://hkmagze.serveblog.net/index.php?c=科技</item>
+		<item>http://hkmagze.serveblog.net/index.php?c=家庭</item>
+		<item>http://hkmagze.serveblog.net/index.php?c=文化</item>
+		<item>http://hkmagze.serveblog.net/index.php?c=運程</item>
+		<item>http://hkmagze.serveblog.net/index.php?c=名采</item>           
 <!-- 
 			<item>http://news.hotpot.hk/fruit/index.php?sec_id=4104</item>
     	<item>http://news.hotpot.hk/fruit/index.php?sec_id=15335</item>

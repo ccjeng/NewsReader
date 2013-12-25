@@ -25,17 +25,13 @@ public class NewsBodyHKAppleDaily implements INewsBody {
 			boolean beginFind = false;
 			String s;
 			while (null != (s = br.readLine())) { 
-				//beginFind = true;
+				beginFind = true;
 
-				/*		
-				if (s.trim().contains("返回上一頁")) {
-					break;
-				}
-*/
+
 				if (s.trim().contains("<h1>")) {
 					beginFind = true;
 				} else if (s.trim().contains("返回上一頁")) {
-					break;
+//					break;
 				}
 			
 				
@@ -77,6 +73,9 @@ public class NewsBodyHKAppleDaily implements INewsBody {
 		rs = rs.replace("img.php?server=", "http://");	
 		rs = rs.replace("imgsrc", "img src");
 		rs = rs.replace("<img", "<img ");
+		
+		rs = rs.replace("#video_player{width:100%;height:100%;}", "");
+		
 			
 	//	rs = rs.replace("jpgalt", "jpg alt");
 	//	rs = rs.replace("&type=jpg", "");

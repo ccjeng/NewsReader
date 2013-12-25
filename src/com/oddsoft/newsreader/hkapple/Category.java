@@ -15,8 +15,8 @@ import android.util.Log;
 public class Category {
 	//private static final String link = "http://174.132.129.66/~hkmagz6/index.php";
 	//private static final String root = "http://174.132.129.66/~hkmagz6/";
-	private static final String link = "http://news.hotpot.hk/fruit/index.php";
-	private static final String root = "http://news.hotpot.hk/fruit/";	
+	private static final String link = "http://hkmagze.serveblog.net/";
+	private static final String root = "http://hkmagze.serveblog.net/";	
 	Document doc;
 	
 	public void connect() {

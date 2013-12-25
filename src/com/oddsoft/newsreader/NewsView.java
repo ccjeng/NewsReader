@@ -452,7 +452,7 @@ public class NewsView extends Activity implements OnGestureListener  {
 	
 			final String js;
 			js= "javascript:(function () { " +
-				  " var w = " + vWidth + ";" +
+				  " var w = " + vWidth/2 + ";" +
 				  " for( var i = 0; i < document.images.length; i++ ) {" +
 				  " var img = document.images[i]; " +
 				  "   img.height = Math.round( img.height * ( w/img.width ) ); " +

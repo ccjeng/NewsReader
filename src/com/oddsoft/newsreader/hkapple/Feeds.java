@@ -12,7 +12,7 @@ import com.oddsoft.newsreader.rss.RSSFeed;
 import com.oddsoft.newsreader.rss.RSSItem;
 
 public class Feeds {
-	private static final String root = "http://news.hotpot.hk/fruit/";
+	private static final String root = "http://hkmagze.serveblog.net/";
 	//private static final String root = "http://174.132.129.66/~hkmagz6/";
 	
 	@SuppressWarnings("unused")
@@ -50,10 +50,10 @@ public class Feeds {
 				Elements links = doc.select("ul li a");
 
 				for (Element k : links) {					
-					if (k.attr("href").contains("art_main.php")) {
+					if (k.attr("href").contains("testart.php")) {
 						item = new RSSItem();
 						item.setTitle(k.text());
-						item.setLink(root + k.attr("href").replace("http://adf.ly/82757/banner/", ""));
+						item.setLink(root + k.attr("href"));
 						rssFeed.addItem(item);
 					}
 				}

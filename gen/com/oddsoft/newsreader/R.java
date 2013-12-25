@@ -452,7 +452,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:backgroundColor
+          @attr name com.oddsoft.newsreader:backgroundColor
         */
         public static final int com_admob_android_ads_AdView_backgroundColor = 0;
         /**
@@ -466,7 +466,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:keywords
+          @attr name com.oddsoft.newsreader:keywords
         */
         public static final int com_admob_android_ads_AdView_keywords = 3;
         /**
@@ -481,7 +481,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:primaryTextColor
+          @attr name com.oddsoft.newsreader:primaryTextColor
         */
         public static final int com_admob_android_ads_AdView_primaryTextColor = 1;
         /**
@@ -495,7 +495,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:refreshInterval
+          @attr name com.oddsoft.newsreader:refreshInterval
         */
         public static final int com_admob_android_ads_AdView_refreshInterval = 4;
         /**
@@ -510,7 +510,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:secondaryTextColor
+          @attr name com.oddsoft.newsreader:secondaryTextColor
         */
         public static final int com_admob_android_ads_AdView_secondaryTextColor = 2;
     };
