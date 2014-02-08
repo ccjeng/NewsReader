@@ -22,7 +22,9 @@ public class XPPHandler {
 		    if (url.toString().contains("stgloballink") 
 		       || url.toString().contains("nownews")
 		       || url.toString().contains("hkheadline")
-		       || url.toString().contains("rthk.hk")) {
+		       || url.toString().contains("rthk.hk")
+		       || url.toString().contains("mingpao")
+		    		) {
 		   		   streamReader = new InputStreamReader(con.getInputStreamFromUrl(url.toString()),"big5");  
 		    } else if (url.toString().contains("ent.163.com") 
 		    		|| url.toString().contains("tech.163.com/")
